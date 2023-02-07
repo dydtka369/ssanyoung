@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/font.css">
+  <script src="./jquery-3.6.3.min.js"></script>
+  <script>
+     window.onload = function(){
+              document.querySelector('.버튼2').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(-100vw)';
+              });
+              document.querySelector('.버튼3').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(-200vw)';
+              });
+              document.querySelector('.버튼1').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(0vw)';
+              });
+            
+          }
+  </script>
+</head>
+
+<body>
+  <div id="quick">
+    <ul>
+      <li><a href="#"><img src="./images/mainQuicknav7.png" alt="mainQuicknav7"></a></li>
+      <li><a href="#"><img src="./images/mainQuicknav2.png" alt="mainQuicknav7"></a></li>
+      <li><a href="#"><img src="./images/mainQuicknav4.png" alt="mainQuicknav7"></a></li>
+      <li><a href="#"><img src="./images/mainQuicknav5 (1).png" alt="mainQuicknav7"></a></li>
+      <li><a href="#"><img src="./images/mainQuicknav7.png" alt="mainQuicknav7"></a></li>
+    </ul>
+  </div>
+  <header>
+    <div id="head_navi">
+      <ul>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">기업블로그</a></li>
+      </ul>
+    </div>
+    <nav id="gnb">
+      <div id="header_inner">
+        <h1>
+          <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+        </h1>
+        <ul class="mainNav">
+          <li>
+            <a href="#">차량 정보</a>
+            <ul class="sub_menu1">
+              <li>
+                <a href="./toress.html">
+                <img src="./images/car_torres_on.jpg" alt="torees">
+                <p>torres</p>
+              </a>
+              </li>
+              <li>
+                <img src="./images/car_tivoli_on.jpg" alt="tivol">
+                <p>tivoli</p>
+              </li>
+              <li>
+                <img src="./images/car_emotion_on.jpg" alt="emotion">
+                <p>emotion</p>
+              </li>
+              <li>
+                <img src="./images/car_g4rexton_on.jpg" alt="rexton">
+                <p>rexton</p>
+              </li>
+              <li>
+                <img src="./images/car_korandoC_on.jpg" alt="car_korandoC_on">
+                <p>korandoC</p>
+              </li>
+              <li>
+                <img src="./images/car_Q200_on.jpg" alt="car_Q200_on">
+                <p>Q200</p>
+              </li>
+              <li>
+                <img src="./images/car_Q201_on.jpg" alt="car_Q201_on">
+                <p>Q201</p>
+              </li>
+              <li>
+                <img src="./images/car_tivoliair_on.jpg" alt="car_tivoliair_on">
+                <p>tivoliAir</p>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">구매 정보</a>
+            <ul class="sub_menu2">
+              <li><a href="#">견적서비스</a></li>
+              <li><a href="#">판매네트워크안내</a></li>
+              <li><a href="#">시승신청</a></li>
+              <li><a href="#">구매혜택</a></li>
+              <li><a href="#">구매가이드</a></li>
+            </ul>
+          </li>
+          <li><a href="#">서비스</a>
+            <ul class="sub_menu2">
+              <li><a href="#">서비스
+                안내</a></li>
+              <li><a href="#">네트워크</a></li>
+              <li><a href="#">차량관리안내</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">내차관리</a></li>
+            </ul>
+          </li>
+          <li><a href="#">고객센터</a>
+            <ul class="sub_menu2">
+              <li><a href="#">회사소식</a></li>
+              <li><a href="#">미디어</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">메거진</a></li>
+              <li><a href="#">역사관</a></li>
+            </ul>
+          </li>
+          <li><a href="#">회사소개</a></li>
+        </ul>
+        <form action="#">
+          <input type="search" name="search" id="search">
+        </form>
+      </div>
+    </nav>
+  </header>
+  <div id="container">
+    <section id="banner">
+      <div class="container1">
+        <div class="inner">
+         <img src="/images/main-tivoliair.jpg" alt="">
+    </div>
+    <div class="inner">
+        <img src="/images/main_torres.jpg" alt="">
+    </div>
+    <div class="inner">
+        <img src="/images/mainview-sport_1.jpg" alt="">
+    </div>
+    </div> 
+    <div class="btn">
+    <button class="버튼1"></button>
+    <button class="버튼2"></button>
+    <button class="버튼3"></button>
+    </div>
+    </section>
+    <section class="slidebanner">
+      <ul class="bannerbox">
+        <li><a href="#"><img src="./images/corando.jpg" alt="corando">
+        <p>corando</p>
+        </a>
+        </li>
+        <li><a href="#"><img src="./images/REXTON.jpg" alt="rexton">
+        <p>corando</p>
+        </a>
+        </li>
+        <li><a href="toress.html"><img src="./images/torees.jpg" alt="rexton">
+          <p>corando</p>
+        </a>
+      </li>
+        <li><a href="#"><img src="./images/tivol.jpg" alt="rexton">
+          <p>corando</p>
+        </a>
+      </li>
+        <li><a href="#"><img src="./images/REXTONSPORTS.jpg" alt="rexton">
+          <p>corando</p>
+        </a>
+      </li>
+        <li><a href="#"><img src="./images/torees.jpg" alt="rexton">
+          <p>corando</p>
+        </a>
+      </li>
+        <li><a href="#"><img src="./images/REXTON.jpg" alt="rexton">
+          <p>corando</p></a></li>
+      </ul>
+      <a><img src="./images/slidearrow_left.png" alt="이전"></a>
+
+    </section>
+    <section id="event">
+      <div id="vaner">
+        <h2>#구매혜택 #이벤트</h2>
+        <div id="left"></div>
+        <div id="right"></div>
+      </div>
+    </section>
+    <section id="service">
+      <div id="seviceList">
+        <h2>#고객서비스</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/servuice.png">
+              <p class="service_title"><strong>서비스 네트워크</strong></p>
+              <p class="service_text">지역별로 쌍용의 자동차<br>서비스 네트워크<br>정보를 제공합니다.</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/servuice.png">
+              <p class="service_title"><strong>서비스 네트워크</strong></p>
+              <p class="service_text">고객님이 계신곳에서<br>가장 가까운<br>정비소를 찾아보세요. </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/servuice.png">
+              <p class="service_title"><strong>서비스 네트워크</strong></p>
+              <p class="service_text">고객님이 계신곳에서<br>가장 가까운<br>정비소를 찾아보세요. </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/servuice.png">
+              <p class="service_title"><strong>서비스 네트워크</strong></p>
+              <p class="service_text">고객님이 계신곳에서<br>가장 가까운<br>정비소를 찾아보세요. </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="brand_news">
+      <h2>#브랜드소식</h2>
+      <div id="mdia_video">
+          <ul>
+            <li><a href="#">YOUTUBE</a></li>
+            <li><a href="#">INSTGRAM</a></li>
+            <li><a href="#">FACEBOOK</a></li>
+          </ul>
+        </div>
+        <div id="video">
+          <ul>
+          <li class="">
+            <iframe src="https://youtu.be/an1n2cIWFu0" title="">
+            </iframe>
+          </li>
+          <li>
+            <iframe src="https://youtu.be/an1n2cIWFu0" title="">
+            </iframe>
+          </li>
+          <li>
+            <iframe src="https://youtu.be/an1n2cIWFu0" title="">
+            </iframe>
+          </li>
+          <li>
+            <iframe src="https://youtu.be/an1n2cIWFu0" title="">
+            </iframe>
+          </li>
+        </ul>
+        </div>
+        <div id="brand_sns">
+          <ul>
+            <li>
+              <a href="#"><img src="./images/mainSocial_youtube.png" alt="YOUTUBE">
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/mainSocial_facebook.png" alt="FACEBOOK">
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/mainSocial_instagram.png" alt="YOUTUBE">
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/mainSocial_blog.png" alt="YOUTUBE">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <section id="news_info">
+      <div id="news_info_inner">
+        <div id="news">
+          <h3>
+            <span>회사 소식</span>
+            <div class="more">+</div>
+          </h3>
+          <ul>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="info">
+            <h3>
+            <span>회사 소식</span>
+            <div class="more">+</div>
+          </h3>
+          <ul>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <em>[보도자료] 쌍용차, ‘설 명절 고객감사 차량점검 서비스’ 실시</em>
+                <time datetime="2023-01-27">2023.01.27</time>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <footer>
+          <div id="footer_main">
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">이메일 집단수집거부</a></li>
+              <li><a href="#">전체메뉴 보기</a></li>
+              <li><a href="#">사이버검사실</a></li>
+              <li><a href="#">GLOBAE</a></li>
+              <li><a href="#">영상처리기기 운영처리방침</a></li>              
+            </ul>
+          </div>
+          <div id="footer_sub">
+            <address>
+              Copyright 2012 SSANGYONG MOTOR COMPANY. All right reserved.
+            </address>
+            <p>고객센터 080-500-5582</p>
+          </div>
+    </footer>
+    
+  </div>
+</body>
+
+</html>

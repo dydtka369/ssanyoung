@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/login.css">
+  
+  <script src="./jquery-3.6.3.min.js"></script>
+  <script>
+     window.onload = function(){
+              document.querySelector('.버튼2').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(-100vw)';
+              });
+              document.querySelector('.버튼3').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(-200vw)';
+              });
+              document.querySelector('.버튼1').addEventListener('click', function(){
+                  document.querySelector('.container1').style.transform = 'translate(0vw)';
+              });
+            
+          }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="head_navi">
+      <ul>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">기업블로그</a></li>
+      </ul>
+    </div>
+    <nav id="gnb">
+      <div id="header_inner">
+        <h1>
+          <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+        </h1>
+        <ul class="mainNav">
+          <li>
+            <a href="#">차량 정보</a>
+            <ul class="sub_menu1">
+              <li>
+                <a href="./toress.html">
+                <img src="./images/car_torres_on.jpg" alt="torees">
+                <p>torres</p>
+              </a>
+              </li>
+              <li>
+                <img src="./images/car_tivoli_on.jpg" alt="tivol">
+                <p>tivoli</p>
+              </li>
+              <li>
+                <img src="./images/car_emotion_on.jpg" alt="emotion">
+                <p>emotion</p>
+              </li>
+              <li>
+                <img src="./images/car_g4rexton_on.jpg" alt="rexton">
+                <p>rexton</p>
+              </li>
+              <li>
+                <img src="./images/car_korandoC_on.jpg" alt="car_korandoC_on">
+                <p>korandoC</p>
+              </li>
+              <li>
+                <img src="./images/car_Q200_on.jpg" alt="car_Q200_on">
+                <p>Q200</p>
+              </li>
+              <li>
+                <img src="./images/car_Q201_on.jpg" alt="car_Q201_on">
+                <p>Q201</p>
+              </li>
+              <li>
+                <img src="./images/car_tivoliair_on.jpg" alt="car_tivoliair_on">
+                <p>tivoliAir</p>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">구매 정보</a>
+            <ul class="sub_menu2">
+              <li><a href="#">견적서비스</a></li>
+              <li><a href="#">판매네트워크안내</a></li>
+              <li><a href="#">시승신청</a></li>
+              <li><a href="#">구매혜택</a></li>
+              <li><a href="#">구매가이드</a></li>
+            </ul>
+          </li>
+          <li><a href="#">서비스</a>
+            <ul class="sub_menu2">
+              <li><a href="#">서비스
+                안내</a></li>
+              <li><a href="#">네트워크</a></li>
+              <li><a href="#">차량관리안내</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">내차관리</a></li>
+            </ul>
+          </li>
+          <li><a href="#">고객센터</a>
+            <ul class="sub_menu2">
+              <li><a href="#">회사소식</a></li>
+              <li><a href="#">미디어</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">메거진</a></li>
+              <li><a href="#">역사관</a></li>
+            </ul>
+          </li>
+          <li><a href="#">회사소개</a></li>
+        </ul>
+        <form action="#">
+          <input type="search" name="search" id="search">
+        </form>
+      </div>
+    </nav>
+  </header>
+    <section id="left_menu">
+        <h3>회원정보</h3>
+        <p>memberShip</p>
+        <ul>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">아이디찾기</a></li>
+            <li><a href="#">비밀번호 찾기</a></li>
+            <li><a href="#"><img src="/images/mem_banner02.gif" alt="mem_banner02"></a></li>
+        </ul>
+    </section>
+    <div id="content">
+        <div id="titWrap">
+            <h3>로그인</h3>
+            <img src="./images/category6_titimg.png" alt="category6_titimg">
+        </div>
+    </div>
+    <footer>
+          <div id="footer_main">
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">이메일 집단수집거부</a></li>
+              <li><a href="#">전체메뉴 보기</a></li>
+              <li><a href="#">사이버검사실</a></li>
+              <li><a href="#">GLOBAE</a></li>
+              <li><a href="#">영상처리기기 운영처리방침</a></li>              
+            </ul>
+          </div>
+          <div id="footer_sub">
+            <address>
+              Copyright 2012 SSANGYONG MOTOR COMPANY. All right reserved.
+            </address>
+            <p>고객센터 080-500-5582</p>
+          </div>
+    </footer>
+    
+  </div>
+</body>
+
+</html>
